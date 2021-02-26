@@ -1,6 +1,7 @@
 package no.haakon.logger;
 
-import no.haakon.logger.simple.SimpleLogger;
+import no.haakon.logger.implementations.SimpleLogger;
+import no.haakon.logger.implementations.WrappingLogger;
 
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
@@ -10,6 +11,7 @@ import java.net.URL;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
+@SuppressWarnings("WeakerAccess")
 public class Loggerfactory {
 
     private static final Function<String, Logger> chosenLoggerFactory = selectLoggerFactory();

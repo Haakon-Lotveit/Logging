@@ -1,7 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc01b015-73c1-4bbf-bc5d-72c101fe9009" name="Default Changelist" comment="" />
+    <list default="true" id="fc01b015-73c1-4bbf-bc5d-72c101fe9009" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/no/haakon/logger/implementations/SimpleLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logging.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Logging.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logFile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/NOTICE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/NOTICE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/RELEASE-NOTES.md" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/RELEASE-NOTES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-1.2-api-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-1.2-api-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-1.2-api-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-1.2-api-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-1.2-api-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-1.2-api-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-api-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-api-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-api-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-api-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-appserver-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-appserver-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-appserver-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-appserver-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-appserver-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-appserver-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-cassandra-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-cassandra-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-cassandra-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-cassandra-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-cassandra-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-cassandra-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-core-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-core-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-core-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-core-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-core-2.14.0-tests.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-core-2.14.0-tests.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-core-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-core-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-couchdb-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-couchdb-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-couchdb-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-couchdb-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-couchdb-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-couchdb-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-docker-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-docker-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-docker-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-docker-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-docker-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-docker-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-flume-ng-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-flume-ng-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-flume-ng-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-flume-ng-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-flume-ng-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-flume-ng-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-iostreams-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-iostreams-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-iostreams-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-iostreams-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jcl-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jcl-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jcl-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jcl-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jdbc-dbcp2-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jdbc-dbcp2-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jdbc-dbcp2-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jdbc-dbcp2-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jdbc-dbcp2-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jdbc-dbcp2-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jmx-gui-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jmx-gui-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jmx-gui-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jmx-gui-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jmx-gui-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jmx-gui-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jpa-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jpa-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jpa-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jpa-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jpa-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jpa-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jul-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jul-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jul-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jul-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jul-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-jul-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-liquibase-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-liquibase-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-liquibase-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-liquibase-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-liquibase-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-liquibase-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-mongodb3-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-mongodb3-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-mongodb3-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-mongodb3-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-mongodb3-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-mongodb3-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-mongodb4-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-mongodb4-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-mongodb4-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-mongodb4-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-mongodb4-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-mongodb4-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-slf4j-impl-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-slf4j-impl-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-slf4j-impl-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-slf4j-impl-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-slf4j18-impl-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-slf4j18-impl-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-slf4j18-impl-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-slf4j18-impl-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-slf4j18-impl-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-slf4j18-impl-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-spring-boot-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-spring-boot-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-spring-boot-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-spring-boot-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-spring-boot-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-spring-boot-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-spring-cloud-config-client-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-spring-cloud-config-client-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-spring-cloud-config-client-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-spring-cloud-config-client-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-spring-cloud-config-client-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-spring-cloud-config-client-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-taglib-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-taglib-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-taglib-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-taglib-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-taglib-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-taglib-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-to-slf4j-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-to-slf4j-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-to-slf4j-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-to-slf4j-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-to-slf4j-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-to-slf4j-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-web-2.14.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-web-2.14.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-web-2.14.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-web-2.14.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-web-2.14.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/apache-log4j-2.14.0-bin/log4j-web-2.14.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/haakon/demo/EkkomaskinMedLogging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/haakon/demo/EkkomaskinMedLogging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/haakon/logger/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/haakon/logger/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/haakon/logger/Loggerfactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/haakon/logger/Loggerfactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/no/haakon/logger/WrappingLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/haakon/logger/implementations/WrappingLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Logging.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/Logging.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/no/haakon/EkkomaskinMedLogging.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/haakon/EkkomaskinMedLogging.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/no/haakon/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/haakon/Level.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/no/haakon/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/haakon/Logger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/no/haakon/Loggerfactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/haakon/Loggerfactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/no/haakon/SimpleLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/haakon/SimpleLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/no/haakon/WrappingLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/no/haakon/WrappingLogger.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,14 +107,15 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/simple/SimpleLogger.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/implementations/SimpleLogger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
                 <element signature="e#1172#1173#0" expanded="true" />
                 <element signature="e#1209#1210#0" expanded="true" />
                 <element signature="e#1263#1264#0" expanded="true" />
@@ -35,11 +129,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/Logger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#27#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/Loggerfactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#321#354#0" expanded="true" />
+                <element signature="e#3243#3244#0" expanded="true" />
+                <element signature="e#3297#3298#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/implementations/WrappingLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,6 +197,9 @@
       <replace>error</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -84,6 +220,12 @@
         <option value="$PROJECT_DIR$/src/main/java/no/haakon/Loggerfactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/haakon/demo/EkkomaskinMedLogging.java" />
         <option value="$PROJECT_DIR$/src/main/java/no/haakon/logger/simple/SimpleLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/haakon/logger/implementations/wrapping/WrappingLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/haakon/logger/WrappingLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/haakon/logger/Loggerfactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/haakon/logger/implementations/WrappingLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/haakon/logger/Logger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/no/haakon/logger/implementations/SimpleLogger.java" />
       </list>
     </option>
   </component>
@@ -105,8 +247,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,7 +308,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="haakon" type="462c0819:PsiDirectoryNode" />
               <item name="logger" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
+              <item name="implementations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,7 +317,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/loggers/logback" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -241,15 +384,11 @@
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21065183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21224165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3289166" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32735777" />
@@ -257,33 +396,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" x="0" y="0" width="495" height="1207" id="Documentation" side_tool="true" weight="0.32956153" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" x="0" y="0" width="495" height="1207" id="Documentation" order="5" side_tool="true" weight="0.32956153" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/simple/SimpleLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/EkkomaskinUtenLogging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="17" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/EkkomaskinUtenLogging.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/Logger.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -298,23 +425,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/LogbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/LogbackLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/LogbackFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/LogbackLogger.java" />
     <entry file="file://$MAVEN_REPOSITORY$/ch/qos/logback/logback-parent/1.2.3/_remote.repositories">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -332,13 +444,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/LogbackEkko.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/LogbackEkko.java" />
     <entry file="file://$PROJECT_DIR$/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -360,44 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/WrappingLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/Loggerfactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3490#3491#0" expanded="true" />
-            <element signature="e#3549#3550#0" expanded="true" />
-            <element signature="e#3603#3604#0" expanded="true" />
-            <element signature="e#3657#3658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/demo/EkkomaskinMedLogging.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -408,19 +476,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/simple/Level.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/simple/Level.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/simple/SimpleLogger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/implementations/WrappingLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/Loggerfactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#321#354#0" expanded="true" />
+            <element signature="e#3243#3244#0" expanded="true" />
+            <element signature="e#3297#3298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#27#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/no/haakon/logger/implementations/SimpleLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
             <element signature="e#1172#1173#0" expanded="true" />
             <element signature="e#1209#1210#0" expanded="true" />
             <element signature="e#1263#1264#0" expanded="true" />
@@ -430,13 +533,6 @@
             <element signature="e#1444#1445#0" expanded="true" />
             <element signature="e#1481#1482#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>
